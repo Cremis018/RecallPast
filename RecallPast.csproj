@@ -3,6 +3,9 @@
     <TargetFramework>net8.0</TargetFramework>
     <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
+    <Authors>Cremis018</Authors>
+    <Description>由Godot引擎开发的开源中小型剧情弹幕游戏——《回音游戏》</Description>
+    <Company>Minktail</Company>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="GodotSimpleTools" Version="0.0.0" />
